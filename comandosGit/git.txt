@@ -1,0 +1,25 @@
+git --version
+git config --list
+
+pwd te dice la carpeta en donde estas ubicado
+cd (navegar en carpetas)
+cd/ te lleva al home
+
+git status te dice las carpetas que tenes y si se agregaron o no
+para agregarlas se usa git add y la carpeta (tambien se usa cuando agregamos algo nuevo a los archivos)
+
+
+git commit -m "mensaje para recordar de que se trata el repositorio (no es obligatorio pero si es una buena practica)"
+
+git log mas el nombre del archivo muestra la historia del archivo
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Kanky9/repositorio.git
+git push -u origin main
+
+git remote add origin git@github.com:Kanky9/repositorio.git
+git branch -M main
+git push -u origin main
